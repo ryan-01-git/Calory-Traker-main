@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar ul{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.navbar li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.header{
+    padding: 20px 0;
+    width: 100vw;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open-calorie-btn{
+    width: 50vw;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: white;
+    border: black;
+    border-style: dashed;
+}
+
+.open-calorie-btn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.open-calorie-btn:focus{
+    outline: none;
+}
+
+.add-meal-modal{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 95vw;
+    height: 95vh;
+    position: absolute;
+    background-color: whitesmoke;
+    text-align: center;
+    border: black;
+    border-style: dashed;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.add-meal-input{
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.add-meal-input:focus{
+    outline: none;
+}
+
+.add-meal-items-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-meal-item{
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-meal-item:hover{
+    background-color: rgb(209, 208, 208);
+}
+
+.add-meal-item-data{
+    overflow: hidden;
+    flex: 1 1 95%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.add-meal-item-data p{
+    flex: 1 1 33%;
+}
+
+.add-meal-item-serving{
+    width: 50px;
+}
+
+.add-meal-item-serving:focus{
+    outline: none;
+}
+
+.add-meal-item-btn{
+    flex: 1 1 5%;
+    font-size: 20px;
+    padding: 7px 20px;
+    background-color: rgb(91, 91, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.add-meal-item-btn:hover{
+    cursor: pointer;
+    background-color: rgb(72, 72, 255);
+}
+
+.add-meal-item-btn:focus{
+    outline: none   ;
+}
+
+.add-meal-close-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(255, 56, 56);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.add-meal-close-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 10px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-blank{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-blank p{
+    font-size: 50px;
+    font-weight: bold;
+    color: grey;
+}
+
+.container-header{
+    margin-top: 20px;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-header-item{
+    background-color: rgb(114, 135, 255);
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-head-input:focus{
+    outline: none;
+}
+
+.container-search{
+    width: 95vw;
+    margin-top: 50px;
+    margin-bottom: 0%;
+}
+
+.container-search h1{
+    font-size: 30px;
+}
+
+.container-search input{
+    width: 95vw;
+    font-size: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.container-search input:focus{
+    outline: none;
+    
+}
+
+
+.calorie-bar-container{
+    margin-top: 20px;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.calorie-bar{
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+.calorie-bar-up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.calorie-bar-down{
+    height: 5px;
+    border-radius: 10px;
+}
